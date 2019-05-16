@@ -402,11 +402,9 @@
 				<dict>
 					<key>Container</key>
 					<string>List</string>
-					<key>Optional</key>
-					<true/>
 					<key>Types</key>
 					<array>
-						<string>com.apple.cocoa.string</string>
+						<string>*</string>
 					</array>
 				</dict>
 				<key>AMRequiredResources</key>
@@ -531,7 +529,6 @@
 DNAME="`dirname \"$2\"`"
 cd $DNAME
 if [[ -d $2 ]]; then
-	echo "zip -P $1 -r \"$FNAME\".zip \"$FNAME\""&gt; ~/Desktop/test
 	zip -P $1 -r "$FNAME".zip "$FNAME"
 
 elif [[ -f $2 ]]; then
@@ -651,7 +648,7 @@ fi</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>521.500000:810.000000</string>
+				<string>521.500000:758.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -661,33 +658,33 @@ fi</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>382EEF84-5F6F-4DC3-A757-A4D28D3EE402</key>
+		<key>29279D95-E38C-4BAD-AF2A-9700C2FB0DD6</key>
 		<dict>
 			<key>from</key>
 			<string>123246C2-CD4C-4880-95F7-FACF9A1EB023 - 123246C2-CD4C-4880-95F7-FACF9A1EB023</string>
 			<key>to</key>
 			<string>8E7CE705-2397-4560-99B9-05C09C6A5516 - 8E7CE705-2397-4560-99B9-05C09C6A5516</string>
 		</dict>
-		<key>3B68A2D2-4C11-484C-B6DB-C9A529F389DF</key>
+		<key>3B42A512-E7F3-463A-A4A6-6BDE8F1CAD2C</key>
+		<dict>
+			<key>from</key>
+			<string>8E7CE705-2397-4560-99B9-05C09C6A5516 - 8E7CE705-2397-4560-99B9-05C09C6A5516</string>
+			<key>to</key>
+			<string>2EB296F2-2DE1-4578-9115-34FDEEA2D15E - 2EB296F2-2DE1-4578-9115-34FDEEA2D15E</string>
+		</dict>
+		<key>5A743850-561F-48D7-BA95-B325CCB6E7FB</key>
 		<dict>
 			<key>from</key>
 			<string>7BF2795F-0582-4C4E-805C-1EB2282A4A49 - 7BF2795F-0582-4C4E-805C-1EB2282A4A49</string>
 			<key>to</key>
 			<string>FC521A2F-DE9E-4879-B24D-957790C51384 - FC521A2F-DE9E-4879-B24D-957790C51384</string>
 		</dict>
-		<key>DE58DF08-3316-4204-9C10-0CDE135A3646</key>
+		<key>E4975F87-49CF-4BA7-9CE2-D82829560C3F</key>
 		<dict>
 			<key>from</key>
 			<string>2EB296F2-2DE1-4578-9115-34FDEEA2D15E - 2EB296F2-2DE1-4578-9115-34FDEEA2D15E</string>
 			<key>to</key>
 			<string>7BF2795F-0582-4C4E-805C-1EB2282A4A49 - 7BF2795F-0582-4C4E-805C-1EB2282A4A49</string>
-		</dict>
-		<key>E86FC343-8592-4848-91A0-E0FC93851559</key>
-		<dict>
-			<key>from</key>
-			<string>8E7CE705-2397-4560-99B9-05C09C6A5516 - 8E7CE705-2397-4560-99B9-05C09C6A5516</string>
-			<key>to</key>
-			<string>2EB296F2-2DE1-4578-9115-34FDEEA2D15E - 2EB296F2-2DE1-4578-9115-34FDEEA2D15E</string>
 		</dict>
 	</dict>
 	<key>variables</key>

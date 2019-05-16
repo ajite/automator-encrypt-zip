@@ -1,19 +1,15 @@
-# automator-encrypt-zip
+# automator-encrypt-zip  
+  
 Workflow to encrypt zip of selected folder in macOS Mojave
 
-..figure:: doc/step-1.png
-    :scale: 50 %
-    :alt: Right click on a file or folder.
+**Right click on a file or folder.**
+![Step 1](/doc/step-1.png)
 
-..figure:: doc/step-2.png
-    :scale: 50 %
-    :alt: Input a password to zip it.
+**Input a password to zip it.**
+![Step 2](/doc/step-2.png)
 
-..figure:: doc/step-3.png
-    :scale: 50 %
-    :alt: The Zip has been created.
+**The Zip has been created.**<br />
+![Step 3](/doc/step-3.png)
 
-
-..figure:: doc/step-4.png
-    :scale: 50 %
-    :alt: You will need to input the password to unzip it.
+**You will need to input the password to unzip it.**<br />
+![Step 4](/doc/step-4.png)

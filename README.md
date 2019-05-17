@@ -1,6 +1,10 @@
 # automator-encrypt-zip  
   
-Workflow to encrypt zip of selected folder in macOS Mojave
+Workflow to encrypt zip of selected folder in macOS.
+
+Tested on:
+  * macOS Mojave
+  * macOS Yosemite
 
 **Right click on a file or folder.**
 ![Step 1](/doc/step-1.png)
